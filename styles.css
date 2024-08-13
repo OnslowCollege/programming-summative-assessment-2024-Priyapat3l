@@ -1,0 +1,549 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1270px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-image {
+    position: relative;
+    background-image: url('headerimage.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-image .blur-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: 1;
+}
+
+header h1 {
+    color: white;
+    font-size: 4em;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+    text-shadow: 4px 4px 8px green;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 20px 25px;
+}
+
+.nav-list a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 407px;
+    width: 907px;
+}
+
+.introp {
+    width: 34%;
+    height: 23%;
+    margin-bottom: 135px;
+    margin-left: 146px;
+}
+
+.introp p {
+    color: black;
+    background-color: white;
+    font-size: 1.3vw;
+    margin-top: 10px;
+    padding: 15px;
+    border: 2px solid black;
+
+}
+
+.introimg {
+    width: 307px;
+    height: 207px;
+}
+
+.introimg img {
+    width: 307px;
+    height: 207px;
+    padding-left: 100px;
+}
+
+.quick-recipes {
+    background-color: #176417;
+    text-align: center;
+    padding: 30px;
+}
+
+.quick-recipes h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.recipes-slider {
+    display: flex;
+    justify-content: center;
+}
+
+.recipes-slider img {
+    width: 15vw;
+    height: 20vh;
+    border-radius: 10px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+}
+
+footer a {
+    font-size: 1vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+footer h4 {
+    font-size: 1.5vw;
+}
+
+.footer1 {
+    width: 25%;
+    background-color: transparent;
+
+
+}
+
+.footer2 {
+    width: 25%;
+    background-color: transparent;
+}
+
+.footer3 {
+    width: 25%;
+    background-color: transparent;
+}
+
+.footer4 {
+    width: 25%;
+    background-color: transparent;
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .intro {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
+
+
+
+
+
+/*contact page*/
+.contacts1 {
+    margin: 0 auto;
+    max-width: 1270px;
+    display: flex;
+}
+
+.contacts2 {
+    width: 30%;
+    background-color: #DA735D;
+}
+
+.contacts5 {
+    margin-top: 9%;
+    margin-left: 8%;
+    width: 30%;
+    position: absolute;
+    background-color: #632229;
+}
+
+.contacts5 h2 {
+    font-family: 'Rowdies', cursive;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.Main-5 {
+    margin: 5%;
+}
+
+.Main-5 h1 {
+    color: white;
+    font-size: 1vw;
+}
+
+.contacts3 {
+    width: 70%;
+    background-color: #632229;
+}
+
+.contacts4 {
+    margin: 9%;
+    background-color: #DA735D;
+}
+
+.Main-4 h1 {
+
+    text-shadow: 4px 2px 1px #632229;
+    font-size: 3vw;
+    color: white;
+}
+
+.Main-4 {
+    margin: 0% 25%;
+    padding: 5%;
+}
+
+.Main-4 button {
+    height: 3vw;
+    width: 8vw;
+    background-color: #889F98;
+    color: #632229;
+    font-size: 1vw;
+    border: 2px solid white;
+}
+
+.Main-4 button:hover {
+    cursor: pointer;
+    background-color: #632229;
+    color: white;
+    border: 2px solid white;
+}
+
+.Main-4 input {
+    width: 20vw;
+    background-color: #889F98;
+    color: #632229;
+    font-size: 1vw;
+    border: 2px solid white;
+
+}
+
+/*recipies page*/
+
+.breakfast_section {
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto;
+    height: 600px;
+    background-color: white;
+}
+
+.breakfast_sec_1 {
+    width: 40%;
+    background-color: #176417;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 90px;
+    font-family: 'Cherry Swash', sans-serif;
+}
+
+.breakfast_pancakes {
+    width: 90%;
+    height: 60px;
+    margin: 20px;
+}
+
+.breakfast_pancakes button {
+    height: 9vh;
+    width: 15vw;
+    background-color: white;
+    font-size: 3vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.breakfast_pancakes button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.breakfast_fruitsalad {
+    width: 90%;
+    height: 60px;
+    margin: 20px;
+}
+
+.breakfast_fruitsalad button {
+    height: 9vh;
+    width: 15vw;
+    background-color: #ffffff;
+    font-size: 2vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.breakfast_fruitsalad button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.breakfast_oats {
+    width: 90%;
+    height: 60px;
+    margin: 20px;
+}
+
+.breakfast_oats button {
+    height: 9vh;
+    width: 15vw;
+    background-color: #ffffff;
+    font-size: 3vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.breakfast_oats button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.breakfast_eggs {
+    width: 90%;
+    height: 60px;
+    margin: 20px
+}
+
+.breakfast_eggs button {
+    height: 9vh;
+    width: 15vw;
+    background-color: #ffffff;
+    font-size: 3vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.breakfast_eggs button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.breakfast_sec_2 {
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #ebebeb;
+    margin-top: 100px;
+    border-radius: 80px;
+}
+
+.breakfast_sec_2 h1 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+
+.breakfast_sec_2 img {
+    Height: 40vh;
+    Width: 30vw
+}
+
+.lunch_section {
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto;
+    height: 600px;
+    background-color: white;
+}
+
+.lunch_sec_1 {
+    width: 40%;
+    background-color: #176417;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 90px;
+    font-family: 'Cherry Swash', sans-serif;
+}
+
+.lunch_nachoes {
+    width: 90%;
+    height: 60px;
+    margin: 20px;
+}
+
+.lunch_nachoes button {
+    height: 9vh;
+    width: 15vw;
+    background-color: white;
+    font-size: 3vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.lunch_nachoes button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.lunch_quesadilla {
+    width: 90%;
+    height: 60px;
+    margin: 20px;
+}
+
+.lunch_quesadilla button {
+    height: 9vh;
+    width: 15vw;
+    background-color: #ffffff;
+    font-size: 3vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.lunch_quesadilla button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.lunch_noodles {
+    width: 90%;
+    height: 60px;
+    margin: 20px;
+}
+
+.lunch_noodles button {
+    height: 9vh;
+    width: 15vw;
+    background-color: #ffffff;
+    font-size: 3vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.lunch_noodles button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.lunch_wrap {
+    width: 90%;
+    height: 60px;
+    margin: 20px
+}
+
+.lunch_wrap button {
+    height: 9vh;
+    width: 15vw;
+    background-color: #ffffff;
+    font-size: 3vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.lunch_wrap button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.lunch_sec_2 {
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #ebebeb;
+    margin-top: 100px;
+    border-radius: 80px;
+}
+
+.lunch_sec_2 h1 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+
+.lunch_sec_2 img {
+    Height: 40vh;
+    Width: 30vw
+}
+
+.maintitles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dbefe4;
+    max-width: 1270px;
+}
+
+
+.maintitles button {
+    font-size: 2vw;
+    height: 9vh;
+    width: 20vw;
+
+
+}
