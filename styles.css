@@ -103,9 +103,9 @@ nav {
     background-color: white;
     font-size: 1.3vw;
     margin-top: 10px;
-    padding: 15px;
+    padding: 37.5px;
     border: 2px solid black;
-
+    
 }
 
 .introimg {
@@ -115,8 +115,8 @@ nav {
 
 .introimg img {
     width: 307px;
-    height: 207px;
-    padding-left: 100px;
+    height: 214px;
+        padding-left: 200px;
 }
 
 .quick-recipes {
@@ -220,7 +220,7 @@ footer h4 {
 
 .contacts2 {
     width: 30%;
-    background-color: #DA735D;
+    background-color: #ffffff;
 }
 
 .contacts5 {
@@ -228,7 +228,7 @@ footer h4 {
     margin-left: 8%;
     width: 30%;
     position: absolute;
-    background-color: #632229;
+    background-color: #176417;
 }
 
 .contacts5 h2 {
@@ -248,19 +248,19 @@ footer h4 {
 
 .contacts3 {
     width: 70%;
-    background-color: #632229;
+    background-color: #176417;
 }
 
 .contacts4 {
     margin: 9%;
-    background-color: #DA735D;
+    background-color: #ffffff;
 }
 
 .Main-4 h1 {
 
-    text-shadow: 4px 2px 1px #632229;
+    text-shadow: 4px 2px 1px #ffffff;
     font-size: 3vw;
-    color: white;
+    color: #176417;
 }
 
 .Main-4 {
@@ -271,23 +271,23 @@ footer h4 {
 .Main-4 button {
     height: 3vw;
     width: 8vw;
-    background-color: #889F98;
-    color: #632229;
+    background-color: #176417;
+        color: #176417;
     font-size: 1vw;
     border: 2px solid white;
 }
 
 .Main-4 button:hover {
     cursor: pointer;
-    background-color: #632229;
+    background-color: #176417;
     color: white;
     border: 2px solid white;
 }
 
 .Main-4 input {
     width: 20vw;
-    background-color: #889F98;
-    color: #632229;
+    background-color: #176417;
+        color: #ffffff;
     font-size: 1vw;
     border: 2px solid white;
 
@@ -342,9 +342,9 @@ footer h4 {
     height: 9vh;
     width: 15vw;
     background-color: #ffffff;
-    font-size: 2vw;
-    margin-left: 30%;
-    margin-top: 10%;
+        font-size: 2vw;
+            margin-left: 30%;
+            margin-top: 10%;
 }
 
 .breakfast_fruitsalad button:hover {
@@ -362,9 +362,9 @@ footer h4 {
     height: 9vh;
     width: 15vw;
     background-color: #ffffff;
-    font-size: 3vw;
-    margin-left: 30%;
-    margin-top: 10%;
+        font-size: 3vw;
+            margin-left: 30%;
+            margin-top: 10%;
 }
 
 .breakfast_oats button:hover {
@@ -382,9 +382,9 @@ footer h4 {
     height: 9vh;
     width: 15vw;
     background-color: #ffffff;
-    font-size: 3vw;
-    margin-left: 30%;
-    margin-top: 10%;
+        font-size: 3vw;
+            margin-left: 30%;
+            margin-top: 10%;
 }
 
 .breakfast_eggs button:hover {
@@ -531,6 +531,357 @@ footer h4 {
     Width: 30vw
 }
 
+.dinner_section {
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto;
+    height: 600px;
+    background-color: white;
+}
+
+.dinner_sec_1 {
+    width: 40%;
+    background-color: #176417;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 90px;
+    font-family: 'Cherry Swash', sans-serif;
+}
+
+.dinner_burger {
+    width: 90%;
+    height: 60px;
+    margin: 20px;
+}
+
+.dinner_burger button {
+    height: 9vh;
+    width: 15vw;
+    background-color: white;
+    font-size: 3vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.dinner_burger button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.dinner_pizza {
+    width: 90%;
+    height: 60px;
+    margin: 20px;
+}
+
+.dinner_pizza button {
+    height: 9vh;
+    width: 15vw;
+    background-color: #ffffff;
+    font-size: 3vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.dinner_pizza button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.dinner_taco {
+    width: 90%;
+    height: 60px;
+    margin: 20px;
+}
+
+.dinner_taco button {
+    height: 9vh;
+    width: 15vw;
+    background-color: #ffffff;
+    font-size: 3vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.dinner_taco button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.dinner_pasta {
+    width: 90%;
+    height: 60px;
+    margin: 20px
+}
+
+.dinner_pasta button {
+    height: 9vh;
+    width: 15vw;
+    background-color: #ffffff;
+    font-size: 3vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.dinner_pasta button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.dinner_sec_2 {
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #ebebeb;
+    margin-top: 100px;
+    border-radius: 80px;
+}
+
+.dinner_sec_2 h1 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.dinner_sec_2 img {
+    Height: 40vh;
+    Width: 30vw
+}
+
+
+
+.snacks_section {
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto;
+    height: 600px;
+    background-color: white;
+}
+
+.snacks_sec_1 {
+    width: 40%;
+    background-color: #176417;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 90px;
+    font-family: 'Cherry Swash', sans-serif;
+}
+
+.snacks_salad {
+    width: 90%;
+    height: 60px;
+    margin: 20px;
+}
+
+.snacks_salad button {
+    height: 9vh;
+    width: 15vw;
+    background-color: white;
+    font-size: 3vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.snacks_salad button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.snacks_carrots {
+    width: 90%;
+    height: 60px;
+    margin: 20px;
+}
+
+.snacks_carrots button {
+    height: 9vh;
+    width: 15vw;
+    background-color: #ffffff;
+    font-size: 3vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.snacks_carrots button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.snacks_yogut {
+    width: 90%;
+    height: 60px;
+    margin: 20px;
+}
+
+.snacks_yogut button {
+    height: 9vh;
+    width: 15vw;
+    background-color: #ffffff;
+    font-size: 3vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.snacks_yogut button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.snacks_apple {
+    width: 90%;
+    height: 60px;
+    margin: 20px
+}
+
+.snacks_apple button {
+    height: 9vh;
+    width: 15vw;
+    background-color: #ffffff;
+    font-size: 2vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.snacks_apple button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.snacks_sec_2 {
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #ebebeb;
+    margin-top: 100px;
+    border-radius: 80px;
+}
+
+.snacks_sec_2 h1 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+.snacks_sec_2 img {
+    Height: 40vh;
+    Width: 30vw
+}
+
+.desserts_section {
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto;
+    height: 600px;
+    background-color: white;
+}
+
+.desserts_sec_1 {
+    width: 40%;
+    background-color: #176417;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 90px;
+    font-family: 'Cherry Swash', sans-serif;
+}
+
+.desserts_mousse {
+    width: 90%;
+    height: 60px;
+    margin: 20px;
+}
+
+.desserts_mousse button {
+    height: 9vh;
+    width: 15vw;
+    background-color: white;
+    font-size: 1.5vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.desserts_mousse button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.desserts_cake {
+    width: 90%;
+    height: 60px;
+    margin: 20px;
+}
+
+.desserts_cake button {
+    height: 9vh;
+    width: 15vw;
+    background-color: #ffffff;
+    font-size: 3vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.desserts_cake button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.desserts_berryyogurt {
+    width: 90%;
+    height: 60px;
+    margin: 20px;
+}
+
+.desserts_berryyogurt button {
+    height: 9vh;
+    width: 15vw;
+    background-color: #ffffff;
+    font-size: 1.5vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.desserts_berryyogurt button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.desserts_banana {
+    width: 90%;
+    height: 60px;
+    margin: 20px
+}
+
+.desserts_banana button {
+    height: 9vh;
+    width: 15vw;
+    background-color: #ffffff;
+    font-size: 2vw;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.desserts_banana button:hover {
+    color: #dbe5ef;
+    background-color: black;
+}
+
+.desserts_sec_2 {
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #ebebeb;
+    margin-top: 100px;
+    border-radius: 80px;
+}
+
+.desserts_sec_2 h1 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+.desserts_sec_2 img {
+    Height: 40vh;
+    Width: 30vw
+}
 .maintitles {
     display: flex;
     justify-content: center;
